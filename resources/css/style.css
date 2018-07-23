@@ -1,0 +1,64 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'roboto', sans-serif;
+
+}
+
+header {
+   color:
+
+}
+
+.container {
+   margin: 0 auto;
+   width: 100%;
+   padding-top: 20px;
+
+}
+
+
+.logo {
+	float: left;
+	padding-left: 30px;
+
+}
+
+.title {
+	font-size: 32px;
+	font-family: Helvetica;
+}
+
+#first {
+	color: #696969;
+	font-weight: 600;
+
+}
+
+#second {
+	color: #aeb1b1;
+	font-weight: 400;
+}
+
+nav {
+	float: right;
+
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 24px;
+	font-family: Helvetica;
+	font-weight: 600;
+	color: #696969;
+
+}
