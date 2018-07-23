@@ -8,7 +8,7 @@ body {
 }
 
 header {
-   color:
+   
 
 }
 
@@ -60,5 +60,58 @@ nav li {
 	font-family: Helvetica;
 	font-weight: 600;
 	color: #696969;
+
+}
+
+
+/*First container and content*/
+
+.container1 {
+	display: flex;
+	background-color: #c6c8c8;
+	margin-top: 24px;
+	padding-top: 32px;
+	padding-left: 24px;
+	padding-bottom: 24px;
+	
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	
+}
+
+.banner-info {
+	font-size: 24px;
+	padding-left: 24px; 
+
+
+}
+
+.banner-info h1 {
+	font-family: Helvetica;
+	font-size: 4.5rem;
+	font-weight: 600;
+	color: #525353; 
+}
+
+.banner-info h2 {
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #525353; 
+}
+
+.button {
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 500;
+	color: white; 
+	background-color: #525353; 
+	padding: 8px 8px;
+
+
 
 }
