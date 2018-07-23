@@ -7,6 +7,8 @@ body {
 
 }
 
+/* Header and Nav bar*/
+
 header {
    
 
@@ -46,6 +48,8 @@ header {
 
 nav {
 	float: right;
+	text-decoration: none;
+
 
 
 }
@@ -118,6 +122,10 @@ nav li {
 
 }
 
+
+
+/*Second container and content*/
+
 .banner2{  
   display: flex;
   background-color: #f8f8f6;
@@ -185,6 +193,7 @@ nav li {
 	font-size: 2rem;
 	font-weight: 600;
 	color: #525353; 
+
 }
 
 .rightban p {
@@ -192,7 +201,13 @@ nav li {
 	line-height: 2rem;
 	font-size: 1.5rem;
 	color: #525353;
+	
 }
+
+
+
+/*Third container and content*/
+
 
 .container3 {
 	display: flex;
@@ -218,7 +233,6 @@ nav li {
 	flex-wrap: wrap;
 	padding-left: 72px;	
 	padding-bottom: 2rem;
-
 
 }
 
@@ -264,3 +278,83 @@ nav li {
     font-size: 1.5rem;
 
 }
+
+
+/*Fourth container and content*/
+
+
+.banner4{  
+  display: flex;
+  background-color: #f8f8f6;
+  padding-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.leftban1 {
+    padding: 2rem 1.5rem;
+    
+}
+
+
+.leftban1 h1 {
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #525353; 
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+
+}
+
+.leftban1 p {
+	font-family: Helvetica;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #525353;
+	padding-bottom: 2rem;
+}
+
+
+.rightban1 {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 2rem;
+	flex-direction: column;
+	padding-right: 14rem;
+	 
+}
+
+.rightban1 h3 {
+    font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #525353; 
+
+}
+
+.rightban1 p {
+	font-family: Helvetica;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #525353;
+	border-bottom: 3px solid #f1f1f1;
+
+}
+
+.footer{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;   
+	background-color: #f8f8f6;
+	border-top: 3px solid #f1f1f1;
+
+ }
+
+ .footer span {
+ 	font-family: Helvetica;
+    font-size: 1.5rem;
+	color: #525353;
+	padding-top: 16px;
+	padding-bottom: 32px;
+ }
