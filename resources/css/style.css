@@ -125,10 +125,12 @@ nav li {
 
 .leftban {
     padding: 2rem 1.5rem;
+    width: 76%;
 }
 
 .leftban img {
 	width: 93%;
+	margin-right: 3rem;
 }
 
 .leftban h1 {
@@ -163,6 +165,8 @@ nav li {
 	flex-direction: column;
 }
 
+
+
 .orientation {
 	display: flex;
 	align-items: center;
@@ -188,4 +192,75 @@ nav li {
 	line-height: 2rem;
 	font-size: 1.5rem;
 	color: #525353;
+}
+
+.container3 {
+	display: flex;
+	background-color: #e2e2e2;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2rem;
+}  
+
+.container3 h1 {
+	padding-bottom: 2rem;
+    font-family: Helvetica;
+    color: #525353;
+    font-size: 4rem;
+
+}
+
+
+
+
+.courses {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 72px;	
+	padding-bottom: 2rem;
+
+
+}
+
+
+.topcourses {
+	display: flex;
+	padding-bottom: 2rem;
+	background-color: white;
+	justify-content: space-around;
+	line-height: 3rem;
+
+
+}
+
+.bottomcourses{
+	display: flex;
+	padding-bottom: 2rem;
+	background-color: white;
+	justify-content: space-around;
+	line-height: 3rem;
+}
+
+
+.text {
+    padding-left: 16px;	
+}
+
+.text h3 {
+	background-color: white;
+	flex: 1;
+	font-family: Helvetica;
+    color: #525353;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.text p {
+	background-color: white;
+	flex: 1;
+	font-family: Helvetica;
+    color: #525353;
+    font-size: 1.5rem;
+
 }
