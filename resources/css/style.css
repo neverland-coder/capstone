@@ -12,6 +12,8 @@ header {
 
 }
 
+
+
 .container {
    margin: 0 auto;
    width: 100%;
@@ -70,9 +72,7 @@ nav li {
 	display: flex;
 	background-color: #c6c8c8;
 	margin-top: 24px;
-	padding-top: 32px;
-	padding-left: 24px;
-	padding-bottom: 24px;
+	padding: 32px 24px;
 	
 }
 
@@ -83,9 +83,13 @@ nav li {
 	
 }
 
+.banner img {
+	width: 60%;
+}
+
 .banner-info {
-	font-size: 24px;
-	padding-left: 24px; 
+	font-size: 1.5rem;
+	padding-left: 1.5rem; 
 
 
 }
@@ -112,6 +116,76 @@ nav li {
 	background-color: #525353; 
 	padding: 8px 8px;
 
+}
 
+.banner2{  
+  display: flex;
+  background-color: #f8f8f6;
+}
 
+.leftban {
+    padding: 2rem 1.5rem;
+}
+
+.leftban img {
+	width: 93%;
+}
+
+.leftban h1 {
+	font-family: Helvetica;
+	font-size: 4rem;
+	font-weight: 600;
+	color: #525353; 
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+
+}
+
+.leftban p {
+	font-family: Helvetica;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #525353;
+}
+
+#website {
+    font-family: Helvetica;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #525353;
+	padding-bottom: 2rem;
+}
+
+.rightban {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 2rem;
+	flex-direction: column;
+}
+
+.orientation {
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.info {
+    flex: 1;
+    padding-left: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.rightban h3 {
+    font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #525353; 
+}
+
+.rightban p {
+	font-family: Helvetica;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #525353;
 }
