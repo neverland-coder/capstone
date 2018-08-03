@@ -9,26 +9,31 @@ body {
 
 /* Header and Nav bar*/
 
-header {
-   
 
+a {
+	text-decoration: none; 
+	color: #696969; 
+	opacity: 1;
+	transition: 0.3s;
 }
 
+a:hover {
+	opacity: 0.6;
+}
 
 
 .container {
    margin: 0 auto;
    width: 100%;
    padding-top: 20px;
-
 }
 
 
 .logo {
 	float: left;
 	padding-left: 30px;
-
 }
+
 
 .title {
 	font-size: 32px;
@@ -38,7 +43,6 @@ header {
 #first {
 	color: #696969;
 	font-weight: 600;
-
 }
 
 #second {
@@ -50,9 +54,8 @@ nav {
 	float: right;
 	text-decoration: none;
 
-
-
 }
+
 
 nav ul {
 	margin: 0;
@@ -119,9 +122,17 @@ nav li {
 	color: white; 
 	background-color: #525353; 
 	padding: 8px 8px;
-
+	opacity: 0.6;
+	transition: 0.3s;
+	width: 40%;
+	margin-left: 100px;
+	border-radius: 5px;
+    
 }
 
+.button:hover {
+	opacity: 1;
+}
 
 
 /*Second container and content*/
@@ -178,8 +189,14 @@ nav li {
 .orientation {
 	display: flex;
 	align-items: center;
-	
+	opacity: 1;
+	transition: 0.3s;
 
+}
+
+.orientation:hover {
+    opacity: 0.6;
+	
 }
 
 .info {
@@ -233,8 +250,11 @@ nav li {
 	flex-wrap: wrap;
 	padding-left: 72px;	
 	padding-bottom: 2rem;
-
+     
+    
 }
+
+
 
 
 .topcourses {
@@ -243,9 +263,8 @@ nav li {
 	background-color: white;
 	justify-content: space-around;
 	line-height: 3rem;
-
-
 }
+
 
 .bottomcourses{
 	display: flex;
@@ -253,6 +272,15 @@ nav li {
 	background-color: white;
 	justify-content: space-around;
 	line-height: 3rem;
+}
+
+.course {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.course:hover {
+	opacity: 0.6;
 }
 
 
@@ -337,7 +365,7 @@ nav li {
 	line-height: 2rem;
 	font-size: 1.5rem;
 	color: #525353;
-	border-bottom: 3px solid #f1f1f1;
+	
 
 }
 
