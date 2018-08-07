@@ -4,6 +4,7 @@ html {
 
 body {
 	font-family: 'roboto', sans-serif;
+	margin: relative;
 
 }
 
@@ -32,6 +33,8 @@ a:hover {
 .logo {
 	float: left;
 	padding-left: 30px;
+	height: 40px;
+	width: 50px;
 }
 
 
@@ -122,7 +125,7 @@ nav li {
 	color: white; 
 	background-color: #525353; 
 	padding: 8px 8px;
-	opacity: 0.6;
+	opacity: 1;
 	transition: 0.3s;
 	width: 40%;
 	margin-left: 100px;
@@ -131,7 +134,7 @@ nav li {
 }
 
 .button:hover {
-	opacity: 1;
+	opacity: 0.6;
 }
 
 
@@ -140,6 +143,8 @@ nav li {
 .banner2{  
   display: flex;
   background-color: #f8f8f6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .leftban {
@@ -178,10 +183,13 @@ nav li {
 }
 
 .rightban {
-	display: flex;
-	align-items: flex-start;
-	padding-top: 2rem;
-	flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    max-height: 100vh;
+    padding-top: 15px;
 }
 
 
@@ -192,6 +200,10 @@ nav li {
 	opacity: 1;
 	transition: 0.3s;
 
+}
+
+.orientation img {
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
 }
 
 .orientation:hover {
@@ -239,7 +251,6 @@ nav li {
     font-family: Helvetica;
     color: #525353;
     font-size: 4rem;
-
 }
 
 
@@ -250,10 +261,8 @@ nav li {
 	flex-wrap: wrap;
 	padding-left: 72px;	
 	padding-bottom: 2rem;
-     
     
 }
-
 
 
 
@@ -266,7 +275,7 @@ nav li {
 }
 
 
-.bottomcourses{
+.bottomcourses {
 	display: flex;
 	padding-bottom: 2rem;
 	background-color: white;
@@ -277,11 +286,13 @@ nav li {
 .course {
 	opacity: 1;
 	transition: 0.3s;
+	justify-content: space-between;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
 }
 
 .course:hover {
 	opacity: 0.6;
-}
+} 
 
 
 .text {
@@ -295,8 +306,7 @@ nav li {
     color: #525353;
     font-size: 2rem;
     font-weight: 600;
-
-}
+} 
 
 .text p {
 	background-color: white;
@@ -344,13 +354,17 @@ nav li {
 
 
 .rightban1 {
+	z-index: 1;
 	display: flex;
 	align-items: flex-start;
-	padding-top: 2rem;
 	flex-direction: column;
 	padding-right: 14rem;
-	 
+	justify-content: space-around;
+	padding-bottom: 20.5rem;
+
 }
+
+
 
 .rightban1 h3 {
     font-family: Helvetica;
@@ -386,3 +400,7 @@ nav li {
 	padding-top: 16px;
 	padding-bottom: 32px;
  }
+ 
+ 
+ /* MEDIA QUERIES */ 
+ 
